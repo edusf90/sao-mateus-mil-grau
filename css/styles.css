@@ -156,7 +156,7 @@ p{
     margin-top: 40px;
 }
 
-/* aqui ta com erro  */
+
 .teamBx .member{
     position: relative;
     background: #000;
@@ -167,7 +167,7 @@ p{
     justify-content: center;
     align-items: center;   
 }
-/* aqui ta com erro */ 
+
 
 .teamBx .member .imgBx{
     position: absolute;
@@ -326,6 +326,8 @@ p{
 }
 
 /* RESPONSIVIDADE */
+
+
 @media (max-width: 992px){
     .toggle
     {
@@ -336,6 +338,7 @@ p{
         cursor: pointer;
     }
     .toggle:before{
+        
         content: '';
         position: absolute;
         top: 4px;
@@ -382,6 +385,7 @@ p{
     }
 
     header.active ul li a{
+        font-size: 5px;
         display: inline-block;
         margin: 10px 0;
         font-size: 20px;
@@ -423,5 +427,11 @@ p{
     }
     h3{
         font-size: 36px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1100px){
+    header.sticky ul li a{
+        font-size: 13px;
     }
 }
