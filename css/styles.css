@@ -74,12 +74,12 @@ header.sticky ul li a{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(img/img-wallpaper/bg.jpg);
+    background-image: url("../img/img-wallpaper/bg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .banner h2{
     color: #fff;
